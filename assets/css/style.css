@@ -3,10 +3,10 @@
   }
   
   :root {
-    --first: #6deeffce;  /* –––––––––––––– main color (slightly transparent) */
-    --second: #18b5cae9; /* –––––––––––––– more opaque version of main color */
-    --third: rgb(220, 220, 220); /* –––––– light grey for shadows */
-    --fourth: #00a2ffbe; /* –––––––––––––– periwinkle blue for accents */
+    --first: #6d6fffce;
+    --second: #184dcae9;
+    --third: rgb(220, 220, 220);
+    --fourth: #00a2ffbe;
     --fifth: #00a2ff89;
   }
   
@@ -14,10 +14,9 @@
     font-family: Geneva, Verdana, sans-serif;
   }
   
-  /* –––––––––––––––––––––––––––––––––––––––––––––––– */
   
+
   
-  /* MAIN PAGE START */
   .info-bar {
     margin: 25px 25px 0 18px;
     font-weight: bold;
@@ -45,7 +44,7 @@
     padding: 5px 15px;
     border-radius: 5px;
     float: right;
-    color: black;
+    color: white;
     filter: drop-shadow(-2px 4px 4px var(--third));
   }
   
@@ -53,8 +52,8 @@
     font-weight: normal;
   }
   
-  .main-page,  /* Container holding: Quiz title / Quiz instructions / Start quiz button */
-  .final-page /* Container holding: Title / Users final score / Initials field / Submit button */ {
+  .main-page, 
+  .final-page {
     display: block;
     padding: 30px 30px 60px 30px;
     border-radius: 10px;
@@ -75,13 +74,13 @@
     line-height: 1.4;
     font-weight: lighter;
   }
-  /* MAIN PAGE END */
+
+
+
   
-  /* –––––––––––––––––––––––––––––––––––––––––––––––– */
-  
-  /* QUESTION PAGE START */
+
+
   .question-box {
-    /* border: 3px solid magenta; */
     margin: 80px auto 0 auto;
     padding: 5px;
     max-width: 900px;
@@ -89,22 +88,20 @@
   
   .title {
     font-size: 36px;
-    color: #000;
+    color: white;
     text-align: left;
     padding-bottom: 0px;
   }
   
   .choices {
-    /* border: 3px solid orange; */
     padding: 10px 0px 0px 20px;
   }
-  /* QUESTION PAGE END */
   
   
-  /* –––––––––––––––––––––––––––––––––––––––––––––––– */
+
   
   
-  /* FINAL PAGE START */
+
   .final-page h1 {
     font-size: 50px;
     margin-top: 0px;
@@ -128,22 +125,18 @@
     margin: 0px 15px;
     font-weight: normal;
   }
-  /* FINAL PAGE END */
-  
-  
-  /* –––––––––––––––––––––––––––––––––––––––––––––––– */
-  
-  
-  /* HIGHSCORES PAGE START */
+
+
+
+
+
   .high-scores-box {
-    /* border: 2px solid magenta; */
     margin: 80px auto 0 auto;
     max-width: 700px;
     
   }
   
   .high-scores-box h1 {
-    /* border: 2px solid lime; */
     text-align: center;
     font-size: 44px;
     font-weight: bolder;
@@ -154,7 +147,6 @@
   }
   
   .high-scores-list {
-    /* border: 2px solid royalblue; */
     display: flex;
     justify-content: center;
     font-size: 20px;
@@ -176,15 +168,11 @@
   .high-scores-list li:nth-child(even) {
     background-color: #6deeffa2;
   }
-  /* HIGHSCORES PAGE END */
+  
+
   
   
-  /* –––––––––––––––––––––––––––––––––––––––––––––––– */
-  
-  
-  /* BUTTONS START */
   .button-style {
-    /* base styling for all buttons throughout project */
     display: inline-block;
     font-size: 21px;
     padding: 13px 20px;
@@ -198,8 +186,9 @@
   }
   
   
-  /* base hover effect for all buttons */
+  /* hover effect for buttons */
   /* citation: https://www.sliderrevolution.com/resources/css-button-hover-effects/ */
+  /* special thanks to my study group for helping me with this */
   .button-style:hover,
   .button-style:focus {
     box-shadow: inset 7em 0 0 0 var(--first);
@@ -232,7 +221,6 @@
   
   
   .high-scores-btn-box {
-    /* border: 2px solid orange; */
     display: flex;
     justify-content: center;
     padding-top: 30px;
@@ -285,4 +273,3 @@
     transition: 0.7s;
     color: white;
   }
-  /* BUTTONS END */

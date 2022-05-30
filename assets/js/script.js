@@ -123,8 +123,7 @@ var questionsArray = [
   
   
   
-  
-  
+  // Could not complete beyond this point. Thanks to my study group for helping me get this far. 
   
   // function createTaskActions(taskId) {
   //   var actionContainerEl = document.createElement("div");

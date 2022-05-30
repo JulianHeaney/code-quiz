@@ -1,6 +1,6 @@
 # Code Quiz
 
-### Warning! Assigment was completed to the best of my ability within the time frame, but is certainly incomplete.
+### Warning! Assigment was completed to the best of my ability within the time frame, but is certainly incomplete. I apologize.
 
 The intent of this quiz is to test your knowledge on Javascript.
 
